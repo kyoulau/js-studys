@@ -1,5 +1,8 @@
-let nomeDoCarro = "Ferrari"
-console.log(nomeDoCarro)
-let precoDoBolo = 19.90
-console.log("preço do bolo = "+ precoDoBolo)
-let cidade = "São Paulo"
+function somarMult(x){
+    function Multiplicacoes(a,b){
+       return a * b;
+    }
+    return Multiplicacoes(a) + Multiplicacoes(b);
+  }
+  
+  console.log(somarMult(2, 3));
